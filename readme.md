@@ -2,7 +2,7 @@
 
 Dette boksystemet lar brukeren lagre, vise, filtrere og analysere bøker lokalt i nettleseren ved hjelp av `localStorage`.
 
-## 🚀 Funksjonalitet
+## Funksjonalitet
 
 1. **Legg til bok**  
    Brukeren fyller inn tittel, forfatter, sjanger og antall sider. Boken lagres lokalt i nettleseren.
