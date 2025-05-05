@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>Bok dash board</title>
+    </head>
+    <body>
+        <h1>Min Bokoversikt</h1>
+
+        <form id="book-form">
+            <input type="text" id="title" placeholder="Tittel" required />
+            <input type="text" id="author" placeholder="Forfatter" required />
+            <input type="text" id="genre" placeholder="Sjanger" required />
+            <input type="number" id="pages" placeholder="Sider" required />
+            <button type="submit">Legg til bok</button>
+        </form>
+
+        <div class="controls">
+            <select id="filter-genre">
+                <option value="">Alle sjangre</option>
+            </select>
+            <button id="sort-alpha">Sorter alfabetisk</button>
+            <button id="clear-all">Slett alle</button>
+        </div>
+
+        <div class="summary"></div>
+        <div class="book-list" id="book-list"></div>
+    </body>
+</html>

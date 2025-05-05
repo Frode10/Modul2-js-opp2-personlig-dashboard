@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+}
+form,
+.book-list,
+.controls,
+.summary {
+    margin-bottom: 2rem;
+}
+.book-item {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+button {
+    background-color: rgb(31, 103, 184);
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.2rem;
+}
